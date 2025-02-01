@@ -1,12 +1,12 @@
 body {
-    background-color: #b80b0b;
+    background-color: #ececec;
 }
 
 .container {
     width: 900px;
     padding: 20px;
     margin:40px auto;
-    background-color: #ececec;
+    background-color: #b80b0b;
     border-radius: 20px;
     
 }
