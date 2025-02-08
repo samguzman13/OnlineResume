@@ -32,11 +32,17 @@ h3{
         font-style: normal;
         font-size: 16px;
 }
+h4{
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px; 
+}
 
 p{
         font-family: "Lato", serif;
         font-weight: 400;
         font-style: normal;
-        font-size: 14px;
+        font-size: 12px;
 
 }
