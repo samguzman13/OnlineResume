@@ -1,13 +1,14 @@
 body {
-    background-color: #ececec;
+    background-color: #2b2d42;
     font-family: "Lato", serif;
 }
 
 .container {
+    display: flex;
     width: 900px;
     padding: 20px;
     margin:40px auto;
-    background-color: #b80b0b;
+    background-color: #edf2f4;
     border-radius: 20px;
     
 }
