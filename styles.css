@@ -1,3 +1,16 @@
+.headshot {
+    width: 150px;  /* Set the container size */
+    height: 150px;
+    overflow: hidden; /* Prevents image overflow */
+    border-radius: 50%; /* Optional: makes the container circular */
+}
+
+.headshot img {
+    width: 100%; /* Ensures the image scales within the container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any extra space around the image */
+}
+
 body {
     background-color: #2b2d42;
     font-family: "Lato", serif;
