@@ -1,3 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2b2d42;
+    font-family: "Lato", serif;
+    scroll-behavior: smooth;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    padding: 20px;
+    margin:40px auto;
+    background-color: #edf2f4;
+    border-radius: 20px;
+    
+}
 .headshot {
     width: 150px;  /* Set the container size */
     height: 150px;
@@ -11,22 +33,6 @@
     display: block; /* Removes any extra space around the image */
 }
 
-body {
-    background-color: #2b2d42;
-    font-family: "Lato", serif;
-    scroll-behavior: smooth;
-    
-}
-
-.container {
-    display: flex;
-    width: 900px;
-    padding: 20px;
-    margin:40px auto;
-    background-color: #edf2f4;
-    border-radius: 20px;
-    
-}
 
 h1{
         font-family: "Poppins", serif;
@@ -75,7 +81,10 @@ p{
 nav {
     background-color: #d90429;
     padding: 5px;
-    filter: drop-shadow(1px 7px 9px #8d99ae);
+    filter: drop-shadow(1px 7px 9px #3b3e5b);
+    position: fixed;
+    width: 100%;
+    top:0px;
 
 }
 
